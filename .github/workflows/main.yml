@@ -20,4 +20,10 @@ jobs:
     steps:
       - name: "Verify of version for actually nodejs"
         run: node --version
+      - name: "Set version for nodejs 20.0!"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '20.13.1'
+      - name: "Verify of version for actually nodejs"
+        run: node --version
     
