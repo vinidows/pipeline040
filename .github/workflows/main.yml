@@ -14,10 +14,10 @@ jobs:
         run: |
           echo " Finish the workflow"
           echo " done"
-second-job:
-  name: "node install"
-  runs-on: ubuntu-latest
-  steps:
-    - name: "Verify of version for actually nodejs"
-      run: node --version
+  second-job:
+    name: "node install"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Verify of version for actually nodejs"
+        run: node --version
     
