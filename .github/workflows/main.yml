@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '20.13.1'
-      - name: "Verify of version for actually nodejs"
+          
+      - name: "Verify of version for actually nodejs 2X"
         run: node --version
     
