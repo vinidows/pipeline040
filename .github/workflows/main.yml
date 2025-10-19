@@ -1,0 +1,16 @@
+name: pipeline048
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+jobs:
+  primeiro-job:
+    name: "Job 1"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Action 1"
+        run: echo "Action 1"
+      - name: "Action 2"
+        run: |
+          echo " Finish the workflow"
+          echo " done"
